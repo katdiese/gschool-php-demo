@@ -1,0 +1,19 @@
+nav {
+  margin-top: 21px;
+
+  header & {
+    float: right;
+    text-align: right;
+  }
+
+  a {
+    margin-right: 20px;
+    font-size: 13px;
+    color: #7f8c8d;
+    text-decoration: none;
+  }
+
+  & a:last-of-type {
+    margin: 0;
+}
+}

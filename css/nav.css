@@ -1,0 +1,12 @@
+nav {
+  margin-top: 21px; }
+  header nav {
+    float: right;
+    text-align: right; }
+  nav a {
+    margin-right: 20px;
+    font-size: 13px;
+    color: #7f8c8d;
+    text-decoration: none; }
+  nav a:last-of-type {
+    margin: 0; }

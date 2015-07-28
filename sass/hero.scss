@@ -1,0 +1,18 @@
+/* Hero */
+.hero {
+  background: #ccc;
+  background-image: url('https://ununsplash.imgix.net/photo-1433838552652-f9a46b332c40?fit=crop&fm=jpg&h=700&q=75&w=1050');
+  background-size: cover;
+  font-family: 'Permanent Marker', helvetica, sans-serif;
+  font-size: 1.25em;
+  background-position: center;
+  background-attachment: fixed;
+
+  h1 {
+  margin: 0;
+  padding: 120px 0;
+  color: white;
+  text-shadow: 0 4px 10px #444;
+  text-align: center;
+}
+}

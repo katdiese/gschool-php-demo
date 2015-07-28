@@ -1,0 +1,35 @@
+/* Columns & Row */
+.row {
+  width: 90%;
+  margin: 0 auto 20px;
+  @include clearfix;
+}
+
+.column {
+  float: left;
+  margin-right: 2%;
+}
+.column:last-of-type {
+	border-left: 0;
+}
+
+.column.two-third {
+  width: 65%;
+}
+.column.one-half {
+  width: 49%;
+}
+.column.one-third {
+  width: 32%
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}
+
+@include breakpoint(phone){
+	.column {
+  	width: 100% !important;
+    margin-right: 0;
+  }
+}
