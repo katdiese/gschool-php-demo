@@ -14,8 +14,8 @@
   clear: both;
 }
 }
-@mixin ease($time: 333ms) {
-  transition: $time all ease-in-out;
+@mixin ease($time: 333ms, $curve: ease-in-out) {
+  transition: $time all $curve;
 }
 
 $tablet: 800px;
