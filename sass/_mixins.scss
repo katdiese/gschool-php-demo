@@ -19,7 +19,7 @@
 }
 
 $tablet: 800px;
-$phone: 400px;
+$phone: 500px;
 
 @mixin breakpoint($size){
 	@media(max-width: $size) {

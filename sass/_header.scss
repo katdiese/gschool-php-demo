@@ -8,6 +8,10 @@ header {
   @include breakpoint(phone){
 	text-align: center;
 	}
+
+  & .row{
+    margin-bottom: 0;
+  }
 }
 
 /* Cancel the header margin on home page. */
@@ -15,15 +19,11 @@ body#home header {
   margin-bottom: 0;
 }
 
-header .row {
-  margin-bottom: 0;
-}
-
 .logo {
   float: left;
   width: 65px;
 
-  @include breakpoint(phone){
+  @include breakpoint($phone){
   	float: none;
     width: 80px;
   }

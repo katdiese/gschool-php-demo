@@ -34,7 +34,7 @@
 .column:last-of-type {
   margin-right: 0; }
 
-@media (max-width: phone) {
+@media (max-width: 800px) {
   .column {
     width: 100% !important;
     margin-right: 0; } }
@@ -66,18 +66,17 @@ header {
   @media (max-width: phone) {
     header {
       text-align: center; } }
+  header .row {
+    margin-bottom: 0; }
 
 /* Cancel the header margin on home page. */
 body#home header {
   margin-bottom: 0; }
 
-header .row {
-  margin-bottom: 0; }
-
 .logo {
   float: left;
   width: 65px; }
-  @media (max-width: phone) {
+  @media (max-width: 500px) {
     .logo {
       float: none;
       width: 80px; } }
@@ -139,7 +138,8 @@ h2 {
   -webkit-transition: 500ms all cubic-bezier(0.55, 0.085, 0.68, 0.53);
           transition: 500ms all cubic-bezier(0.55, 0.085, 0.68, 0.53); }
   .profile:hover {
-    border-radius: 10px; }
+    border-radius: 50px 10px;
+    background-color: #2c3e50; }
 
 .profile p {
   z-index: 1000;

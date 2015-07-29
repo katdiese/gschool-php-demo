@@ -27,7 +27,7 @@
   margin-right: 0;
 }
 
-@include breakpoint(phone){
+@include breakpoint($tablet){
 	.column {
   	width: 100% !important;
     margin-right: 0;
